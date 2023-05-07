@@ -46,3 +46,5 @@ async def result(city: str, city_info: CityInfo):
     return {'city': city, 'country': city_info.country, 'is_affected': city_info.is_affected}
 
 # 启动命令：uvicorn hello_world:app --reload
+
+print("hello")
