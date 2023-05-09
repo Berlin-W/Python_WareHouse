@@ -43,10 +43,6 @@
 #     print(res)
 
 # 推荐使用第二种
-# with open('D:/培训资料/python资料/python基础练习/day06/code1/test.txt', 'r') as f:
-#     res = f.read()
-#     print(res)
-
 f = open('C:/Users/魏博林/Desktop/test.txt','r')
 res = f.read(4)
 print(res)
